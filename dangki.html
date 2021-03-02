@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/web.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="company-infor">
+            <h1>WWF-Home</h1>
+            <h5>Sứ mệnh của chúng tôi là ngăn chặn sự <br/>
+            xuống cấp của môi trường tự nhiên tại Việt Nam</h5>
+        </div>
+    <div id="top-menu">
+        <a href="dangnhap.html">Đăng nhập</a>
+        <a href="dangki.html">Đăng kí</a>
+    </div>
+    </header>
+    <nav>
+        <div class="menu2">
+            <ul>
+                <li><a href="index.html" title="Trang chủ" class="active">Trang chủ</a></li>
+                <li><a href="gioithieu.html">Giới thiệu</a>
+                    <ul>
+                    <li><a href="#"> Lịch sử</a></li>
+                    <li><a href="#"> Tầm nhìn phát triển</a></li>
+                </li>
+            </ul>
+                <li> <a href="tintuc.html">Tin tức</a>
+                <ul>
+                    <li><a href="#">Mới nhất</a></li>
+                    <li><a href="#">Ấn phẩm</a></li>
+                   
+                </ul>
+                <li><a href="lienhe.html">Liên hệ</a></li>
+                <li><a href="quyengop.html">Quyên góp</a>
+                    <ul>
+                        <li><a href="#"> Thẻ tín dụng</a></li>
+                        <li><a href="#">SMS</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>    <main>
+        <h2>ĐĂNG KÝ THÀNH VIÊN</h2>
+        <div class="form-group">
+            Quốc tịch:<br>
+            <select name="dropdown">
+                <option value="Việt Nam" readonky>Việt Nam</option>
+
+            </select><br>
+        </div>
+        <div>
+            Tỉnh:<br/>
+            <input class="form-control">
+        </div>
+        <div class="form-group">
+            <label tabindex="2">Ghi chú</label><br>
+            <input class="form-control">
+        <div>
+            <fieldset>
+                <legend>Giới tính</legend>
+                <label><input type="radio" name="gender" checked="check"/>Nam</label>
+                <label><input type="radio" name="gender" checked="check"/>Nữ</label>
+
+            </fieldset>
+        </div>    
+        <div>
+            <label>Ngày sinh</label>
+            <input type="date">
+        </div>
+        
+        <div class="form-group">
+            Nghề nghiệp:<br>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Phiên dịch"></option>
+                <option value="Bác sĩ"></option>
+                <option value="Công an"></option>
+                <option value="Lính cứu hỏa"></option>
+                <option value="Bộ đội"></option>
+                <option value="Sinh viên"></option>
+            </datalist>
+
+        </div>
+        <div>
+            <fieldset>
+                <legend> Vấn đề bạn quan tâm:</legend>
+                <label><input type="checkbox" name="subject"value="Động vật hoang dã">Động vật hoang dã</label>
+                <label><input type="checkbox" name="subject"value="Đại dương">Đại dương</label>
+                <label><input type="checkbox" name="subject"value="Thực phẩm">Thực phẩm</label>
+                <label><input type="checkbox" name="subject"value="Rừng">Rừng</label>
+
+            </fieldset>
+        </div>
+        <hr/>
+        <button class="form-button">Đăng ký</button>
+        <button class="form-button">Nhập lại</button>
+        <button class="form-button" disabled>Xóa</button>
+    </form>
+    </main>
+    <footer id="footer">Tổ chức bảo vệ động vật Thế giới </footer>
+</div>
+</body>
+</html>
